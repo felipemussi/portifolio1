@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+   
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+
+    <main>
+        <img class="img-logo" src="./assets/img/Logo-money.gif" alt="logo-convert">
+        <h1>Conversor Monetário</h1>
+        <label>
+            Converter <Strong>de</Strong>:
+            <select name="selectAconverter" id="selectAconverter">
+                <option value="real" selected>R$ - Real Brasileiro</option>
+                <option value="dolar">US$ - Dólar Americano</option>
+                <option value="euro">€ - Euro</option>
+            </select>
+
+        </label>
+
+        <label>
+            Converter <Strong>para</Strong>:
+            <select name="selectCovertido" id="selectConvertido">
+                <option value="dolar">US$ - Dólar Americano</option>
+                <option value="real">R$ - Real Brasileiro</option>
+                <option value="euro">€ - Euro</option>
+            </select>
+        </label>
+
+        <label>
+            Valor:
+            <input class="input-values" placeholder="Digite o valor"></input>
+        </label>
+        <button id="btnConverter">Converter</button>
+
+        <section>
+            <div>
+                <img id="logoMoedaAconverter" class="icone-money" src="./assets/img/icon-brasil.png"
+                    alt="logo-a-converter">
+                <div class="text-convert">
+                    <p class="moedaAconverter">Real</p>
+                    <p class="valor-a-converter">R$ 0,00</p>
+                </div>
+            </div>
+
+            <img class="icone-money" src="./assets/img/icon-seta.png" alt="seta">
+
+            <div>
+                <img id="logoMoedaConvertida" class="icone-money" src="./assets/img/icon-usa.png"
+                    alt="logo-convertido">
+                <div class="text-convert">
+                    <p class="moeda-convertida">Dólar Americano</p>
+                    <p class="valor-convertido">US$ 0,00</p>
+                </div>
+            </div>
+         </section>
+        <br>
+        <p>Desenvolvido por <strong>Felipe Mussi</strong></p>
+        
+    </main>
+
+</body>
+ <script src="./js/scripts.js"></script>
+</html>

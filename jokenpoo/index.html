@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>JokenPoo</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>JokenPoo</h1>
+        <div class="botoes">
+            <button onclick="checarGanhador('pedra')" value="pedra" class="pedra">👊</button>
+            <button onclick="checarGanhador('papel')" value="papel" class="papel">🖐</button>
+            <button onclick="checarGanhador('tesoura')" value="tesoura" class="tesoura">✌</button>
+        </div>
+        <p class="suaPontuacao">Sua pontuação: </p>
+        <p class="pontuacaoAlexa">Alexa Pontuação:</p>
+        <p class="contadorEmpates">Empataram: </p>
+        <p class="contadorJogos">Jogaram: </p>
+        <h3 id="mensagem"></h3>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>

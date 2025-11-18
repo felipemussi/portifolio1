@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #000;
+}
+
+
+
+.container-sorteador{
+    width: 30% ;
+    height: 88vh;
+    background-color: #e9ece9;
+    border-radius: 20px;
+    border: #000 solid 6px;
+    box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 10px 10px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+
+.bodyDiv{
+    margin-top: 35px;
+    align-items: center;
+}
+
+input{
+    padding: 5px 0;
+    text-align: center;
+    width: 100px;
+    margin-right: 18px;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    border-radius: 16px;
+
+}
+
+button{
+    margin-top: 10px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: honeydew;
+    border: none;
+    background-color: rgb(1, 74, 184);
+}
+
+button:hover{
+    background-color: chocolate;
+    cursor: pointer;
+    color: #000;
+}
+
+button:active{
+    opacity: .5;
+}
+
+.result{
+    margin-top: 8px;
+   
+}
+.value-result{
+    color: rgb(90, 146, 250);
+    font-size: 40px;
+    font-weight: 700;
+    background: rgb(0, 0, 0);
+    padding: 5px 0;
+    border-radius: 15px;
+}
+
+.logo{
+    width: 100%;
+    height: 252px;
+    border-radius: 25px;
+}
+
+label{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-sorteador {
+        width: 100%;
+        margin: 10px 0;
+    
+    }
+       
+}
+
+/* Responsividade adicional */
+@media screen and (max-width: 1024px) {
+    .container-sorteador{
+        width: 60%;
+        font-size: 26px;
+        height: auto;
+        padding: 20px;
+    }
+    .logo{ height: 200px; }
+}
+
+@media screen and (max-width: 768px) {
+    .container-sorteador{
+        width: 95%;
+        margin: 12px auto;
+        font-size: 20px;
+        height: auto;
+        padding: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bodyDiv{ margin-top: 18px; }
+
+    input{ width: 80%; margin: 8px 0; }
+
+    button{ width: 90%; font-size: 18px; }
+
+    .logo{ height: 180px; }
+    .result{ margin-top: 18px; font-size: 28px; }
+}
+
+@media screen and (max-width: 420px) {
+    .container-sorteador{ padding: 12px; font-size: 18px; }
+    input{ width: 100%; }
+    button{ width: 100%; padding: 12px; font-size: 17px; }
+    .logo{ height: 140px; }
+}

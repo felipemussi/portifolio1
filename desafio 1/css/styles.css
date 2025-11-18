@@ -1,0 +1,39 @@
+/*# é id uso unico
+  . é class para usar em diferentes lugares que tenham o mesmo estilo
+   */
+#inicio{
+    background:linear-gradient(to top,
+     #df9999 0%,
+     #fd1212 25%,
+     #924949 50%,
+        #080808 75%,
+     #777373 100% );
+     color:#fff;
+
+    font-family: Verdana, Tahoma, sans-serif;
+     
+}
+.menu{
+    text-decoration: none;
+}
+nav, .a{
+    background-color: #646161;
+    color: #000000;
+    padding: 7px;
+    text-align: right;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+}
+nav .a:hover{ 
+     background-color: aqua;
+     
+     
+}
+
+.image{
+    justify-content: left;
+    width: 100px;
+    height: auto;
+
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin: 20px;
+    border: 2px #000000 solid;
+    text-align: center;
+}
+
+main {
+
+    padding: 10px;
+    border: 2px #000000 solid;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+
+}
+section {
+    display: inline-block;
+    width: 50%;
+    border: 2px #000000 solid;
+
+
+}
+
+.div-logo {
+    display: inline-block;
+    border: #000000 2px solid;
+    width: 50%;
+    height: auto;
+}
+
+.item-header {
+    margin-right: 23px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+}
+
+.linksection {
+
+    color: #0bc01a;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.linksection:hover {
+    color: #ffffff;
+    background-color: #0bc01a;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.item-header:hover {
+    color: #ffffff;
+    background-color: #0bc01a;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.button-header {
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0bc01a;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo-img {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+    border: #000000 2px solid;
+
+}
+
+
+
+h1 {
+    font-weight: 900;
+    font-size: 80px;
+    color: #000000;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 32px;
+    margin-bottom: 34px;
+
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    section {
+        width: 95%;
+        height: auto;
+        padding: 40px;
+
+    }
+
+
+    .logo-img {
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        border: #000000 2px solid;
+        position: static;
+
+    }
+    h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+
+}
+
+p {
+    font-weight: 200;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 32px;
+    margin-bottom: 34px;
+
+}
+}

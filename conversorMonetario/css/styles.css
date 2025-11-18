@@ -1,0 +1,132 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../assets/img/fundo.jpg);
+    background-size: cover;
+    width: 100% ;
+    height: auto ;
+
+}
+
+main{
+    width: 55vh ;
+    background-color: rgba(142, 142, 143, 0.9);
+    border-radius: 20px;
+    border: #000 solid 2px;
+    margin: 10px auto;
+    padding: 4px 23px;
+    box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 10px 10px;
+}
+ h1, h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.img-logo {
+    width: 15vh ;
+    height: auto;
+    display: block;
+    margin: 6px auto 6px;
+    border-radius: 75px;
+    
+}
+
+label {
+    font-size: 20px;
+    color: #000000 ;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+select{
+    background: rgb(253, 253, 253);
+    border: #000000;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+input{
+    width:35%;
+    margin-bottom: 15px;
+    padding:5px;
+    padding-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    display: none;
+    width: 35%;
+    padding: 3px;
+    background-color: #000;
+    color: aliceblue;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+button:active{
+    opacity: 0.3;
+}
+
+section{
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text-convert {
+    margin-bottom: 7px;
+}
+
+.valor-convertido{
+    margin-bottom: 9px;
+}
+.icone-money{
+    width: 50px;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 350px) {
+        main{
+        width: 97% ;
+    }
+    button{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 600px) {
+        main{
+        width: 97% ;
+    }
+    button{
+        width: 45%;
+    }
+}  
