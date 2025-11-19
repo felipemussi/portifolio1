@@ -168,5 +168,19 @@ footer{
     header h1{ font-size:16px }
 }
 
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 14px;
+    }
+
+    .sobre-mim h2 {
+        font-size: 20px;
+    }
+
+    .box-projetos img {
+        height: 180px;
+    }
+}
+
 /* pequenas correções para compatibilidade com bootstrap carousel */
 .carousel-control-prev-icon, .carousel-control-next-icon{ filter: invert(1) hue-rotate(160deg) saturate(120%); }
